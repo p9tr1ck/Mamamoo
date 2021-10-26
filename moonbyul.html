@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/moonbyul_logo_small.png"  />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jua&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <title>Mamamoo: Moonbyul</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper purple">
+            <a href="moonbyul.html" class="brand-logo center">Mamamoo: Moonbyul</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+            </ul>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="solar.html">Solar</a></li>
+                <li class="active"><a href="moonbyul.html">Moonbyul</a></li>
+                <li><a href="wheein.html">Wheein</a></li>
+                <li><a href="hwasa.html">Hwasa</a></li>
+                <li class ="divider"></li>
+                <li><a href="albums.html">Albums</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div id="members_main">
+            <div class="col m6">
+                    <img class="materialboxed" data-caption="Moonbyul in Studio Moonnight" width="500" src="img/210929문나잇4.gif">
+            </div>
+        </div>
+        <div id="explanation">
+            <div class="col m6">
+                <div class="card-panel #d50000 red accent-4">
+                    <div class="card-panel white">
+                        <h3>Moonbyul is...</h3>
+                        <img class="materialboxed" width="100" src="img/moonbyul_logo.png">
+                        <li>문별이 (Moon Byulyi) / 문별 (Moonbyul)</li>
+                        <li>1992/12/22 (28)</li>
+                        <li>Also called Moonstar (Byul means star)</li>
+                        <li>Rap / Performance (perfunctory)</li>
+                        <li>Originally was vocal when did the audition</li>
+                        <li>Low voice</li>
+                        <li>Participate in lyric writing in almost every songs</li>
+                        <li>Took charge of the "RED MOON" album in the <a href="albums.html#4s4c">4 SEASON 4 COLOR PROJECT</a></li>
+                        <li>Visible Radio: <a href="https://now.naver.com/player/923">Studio Moonnight</a> (M / W / F 9PM KST)</li>
+                        <li>Nickname: Moonster (she's cute like hamsters)</li>
+                        <li id="ex_1_back">Patrick's Favorite member <a href="moonbyul.html#ex_1">[1]</a></li>
+                        <li><a href="https://www.instagram.com/mo_onbyul/"><i class="fa fa-instagram" style="font-size:36px"></i></a> - @mo_onbyul (4.5M Followers)</li>
+                    </div>
+                </div>
+
+         </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h4>Moonbyul's Solo Albums</h4>
+        <div class="carousel">
+            <a href="albums.html#album_moonbyul" class="carousel-item">
+                <img src="img/moonbyul_album1.jpg" alt="">
+            </a>
+            <a href="albums.html#album_moonbyul" class="carousel-item">
+                <img src="img/moonbyul_album2.jpg" alt="">
+            </a>
+            <a href="albums.html#album_moonbyul" class="carousel-item">
+                <img src="img/moonbyul_album3.jpg" alt="">
+            </a>
+        </div>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <div class="footer_ex">
+        <p id="ex_1"><strong><a href="moonbyul.html#ex_1_back">[1]</a> <a href="https://www.youtube.com/watch?v=WvkTcNQsxzc">This</a> video made me tolike Moonbyul and Mamamoo (The gif in the main page is from that video)</strong></p>
+    </div>
+
+    <footer>
+        <p>
+            Patrick, Copyright &copy; 2021
+        </p>
+    </footer>
+
+    <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script> 
+    <script>
+       $(document).ready(function(){
+            //Initialize Carousel
+            $('.carousel').carousel();
+
+            //Initialize Carousel Slider
+            $('.carousel.carousel-slider').carousel({fullWidth:true});
+
+            //Initialize Collapsible
+            $('.collapsible').collapsible();
+
+            //Tooltips
+            $('.tooltipped').tooltip();
+
+            //Dropdown
+            $('.dropdown-trigger').dropdown();
+
+            //Material Box
+            $('.materialboxed').materialbox();
+
+            //Slide
+            $('.slider').slider();
+
+            //Modals
+            $('.modal').modal();
+
+            //Slide Menu
+            $('.sidenav').sidenav();
+            
+            //Tabs
+            $('.tabs').tabs();
+
+            //Tap Target
+            $('.tap-target').tapTarget();
+       });
+    </script>
+</body>
+</html>

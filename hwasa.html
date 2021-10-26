@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/hwasa_logo_small.png"  />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jua&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <title>Mamamoo: Hwasa</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper purple">
+            <a href="hwasa.html" class="brand-logo center">Mamamoo: Hwasa</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+            </ul>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="solar.html">Solar</a></li>
+                <li><a href="moonbyul.html">Moonbyul</a></li>
+                <li><a href="wheein.html">Wheein</a></li>
+                <li class="active"><a href="hwasa.html">Hwasa</a></li>
+                <li class ="divider"></li>
+                <li><a href="albums.html">Albums</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div id="members_main">
+            <div class="col m6">
+                    <img class="materialboxed" data-caption="Hwasa in Music Bank" width="500" src="img/210605뮤뱅.gif">
+            </div>
+        </div>
+        <div id="explanation">
+            <div class="col m6">
+                <div class="card-panel #ffeb3b yellow">
+                    <div class="card-panel white">
+                        <h3>Hwasa is...</h3>
+                        <img class="materialboxed" width="100" src="img/hwasa_logo.png">
+                        <li>안혜진 (Ahn Hyejin) / 화사 (Hwasa)</li>
+                        <li>1995/07/23 (26)</li>
+                        <li>Youngest member of Mamamoo</li>
+                        <li>Sub vocal / Rap (perfunctory!)</li>
+                        <li>Husky and Attractive voice</li>
+                        <li>Childhood friend with <a href="wheein.html">Wheein</a></li>
+                        <li>Took charge of the "Yellow Flower" album in the <a href="albums.html#4s4c">4 SEASON 4 COLOR PROJECT</a></li>
+                        <li><a href="https://www.instagram.com/_mariahwasa/"><i class="fa fa-instagram" style="font-size:36px"></i></a> - @_mariahwasa (6.9M Followers)</li>
+                    </div>
+                </div>
+               
+               
+         </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h4>Hwasa's Solo Albums</h4>
+        <div class="carousel">
+            <a href="albums.html#album_hwasa" class="carousel-item">
+                <img src="img/hwasa_album1.jpg" alt="">
+            </a>
+            <a href="albums.html#album_hwasa" class="carousel-item">
+                <img src="img/hwasa_album2.jpg" alt="">
+            </a>
+            <a href="albums.html#album_hwasa" class="carousel-item">
+                <img src="img/white.png" alt="">
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            Patrick, Copyright &copy; 2021
+        </p>
+    </footer>
+
+    <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script> 
+    <script>
+       $(document).ready(function(){
+            //Initialize Carousel
+            $('.carousel').carousel();
+
+            //Initialize Carousel Slider
+            $('.carousel.carousel-slider').carousel({fullWidth:true});
+
+            //Initialize Collapsible
+            $('.collapsible').collapsible();
+
+
+
+            //Tooltips
+            $('.tooltipped').tooltip();
+
+            //Dropdown
+            $('.dropdown-trigger').dropdown();
+
+            //Material Box
+            $('.materialboxed').materialbox();
+
+            //Slide
+            $('.slider').slider();
+
+            //Modals
+            $('.modal').modal();
+
+            //Slide Menu
+            $('.sidenav').sidenav();
+            
+            //Tabs
+            $('.tabs').tabs();
+
+            //Tap Target
+            $('.tap-target').tapTarget();
+       });
+    </script>
+</body>
+</html>
