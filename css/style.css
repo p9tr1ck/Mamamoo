@@ -131,3 +131,6 @@ h6{
     background: linear-gradient(to right, #00ffff 0%, #ccccff 60%);
 }
 
+.materialboxed{
+    text-align:center;
+}
