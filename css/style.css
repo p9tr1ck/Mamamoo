@@ -1,0 +1,133 @@
+
+/*footer*/
+footer{
+    padding: 1px;
+    color:#fff;
+    background: purple;
+    text-align:center;
+}
+
+.footer_ex{
+    background: lightgray;
+}
+
+/*margin*/
+#main_image, #album_image, .footer_ex{
+    margin: 50px 60px;
+}
+    
+img.center{
+    display:block;
+    margin: 0 auto;
+}
+
+.members{
+    margin-top:100px;
+}
+
+#members_main{
+    margin: 50px 300px;
+}
+
+.fa{
+    margin-top:10px;
+}
+
+/*fonts*/
+
+.brand-logo{
+    font-family: 'Bebas Neue', cursive;
+}
+
+li{
+    font-size: larger;
+    font-family: 'Jua', sans-serif;
+}
+
+ul{
+    font-family: 'Jua', sans-serif;
+}
+
+p{
+    font-family: 'Jua', sans-serif;
+}
+
+.caption{
+    font-family: 'Jua', sans-serif;
+    text-align:center;
+    margin-top:5px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+h3{
+    font-family: 'Bebas Neue', cursive;
+}
+
+h4{
+    margin-top: 100px;
+    text-align:center;
+    margin-bottom:-50px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+h5{
+    margin-bottom: -10px;
+    font-family: 'Jua', sans-serif;
+}
+
+h6{
+    text-align:center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;   
+    font-size:x-large;
+    
+}
+
+/*boxes*/
+
+.divider{
+   height: 65px;
+   width: 1px;
+   margin: 0 5px;
+   overflow: hidden;
+   background-color: #DDD;
+}
+
+.card{
+    width:1070px;
+    height:20px;
+    background: linear-gradient(to right, #00ffff 0%, #ccccff 60%);
+    
+}
+
+.collapsible-header {
+    font-size:small;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collapsible-body{
+    font-size:small;
+
+}
+
+.card_1{
+    background: linear-gradient(to right, #ccccff 0%, #ff99cc 100%);
+}
+
+.card_2{
+    background: linear-gradient(to right, #ff99cc 0%, #ccccff 100%);
+}
+
+.card_4{
+    background: linear-gradient(to right, #ccccff 50%, #00ffff 100%);
+}
+
+.card_3{
+    background: linear-gradient(to right, #00ffff 0%, #ccccff 60%);
+}
+
